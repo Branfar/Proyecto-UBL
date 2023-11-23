@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Valores de cuerpo, fuente y color*/
+body {
+	background-color: #f0f0f0;
+	font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.hero-bg {
+	background-image: url("../assets/fondo-hero.jpg");
+	min-height: 500px;
+}
+
+.espaciador {
+	min-height: 100px;
+}
+
+.video-hero {
+	max-height: 50%;
+}
+
+.boton-hero {
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-link {
+	color: #003049;
+}
+
+.activo-nav {
+	color: #1380D0;
+}
