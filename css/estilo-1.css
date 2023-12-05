@@ -14,16 +14,25 @@ body {
 }
 
 .espaciador {
-	min-height: 100px;
+	min-height: 50px;
 }
 
 .video-hero {
-	max-height: 50%;
+	min-width: 350px;
+	width: 40%;
+}
+
+.container-boton {
+	display: flex;
+	justify-content: center;
 }
 
 .boton-hero {
+	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-top: 20px;
+	background-color: #003049;
 }
 
 .nav-link {
@@ -32,4 +41,20 @@ body {
 
 .activo-nav {
 	color: #1380D0;
+}
+
+.nav-fonts {
+	font-family: 'Gotham-Bold';
+	font-size: 1.5em;
+}
+
+.titulo-pag {
+	font-family: 'Gotham-Bold';
+	font-size: 1 em;
+	margin: 30px;
+	text-align: center;
+}
+
+.anuncio-ubl {
+	width: 40%;
 }
