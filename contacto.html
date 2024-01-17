@@ -42,7 +42,7 @@
 	          <a class="nav-link" aria-current="page" href="index.html">Home</a>
 	        </li>
 	        <li class="nav-item">
-	          <a class="nav-link activo-nav" href="#">Umbrella</a>
+	          <a class="nav-link" href="umbrella.html">Umbrella</a>
 	        </li>
 	        <li class="nav-item">
 	          <a class="nav-link" href="nosotros.html">Nosotros</a>
@@ -51,7 +51,7 @@
 	          <a class="nav-link" href="portafolio.html">Portafolio</a>
 	        </li>
 	        <li class="nav-item">
-	          <a class="nav-link" href="contacto.html">Contacto</a>
+	          <a class="nav-link activo-nav" href="#">Contacto</a>
 	        </li>
 
 	      </ul>
@@ -63,16 +63,81 @@
 	<div>
 	<h1 class="titulo-pag">Contacto</h1>	
 	</div>
+	<div class="ban-contacto">
+		<p class="text-nosotros">Ponte en contacto con nosotros si tienes alguna duda</p><p class="text-nosotros">Aquí encontrarás diversas formas de comunicarte con nosotros</p>
+	</div>
+
 	<div class="espaciador"></div>
 
-<h1 class="titulo-pag">Formulario de contacto</h1>	
+<div class="contact_form">
 
-<h1 class="titulo-pag">Equipo Umbrella</h1>	
+    <div class="formulario" >     
+      <h1>Formulario de contacto</h1>
+        <h3>Escríbenos y nos pondermos en contacto contigo</h3>
+        <p class="aviso">
+                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>  
+
+
+          <form action="mailto:umbrellastudios1@gmail.com" method="post"
+          enctype="text/plain" name="EmailForm">       
+
+            
+                <p>
+                  <label for="nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="Nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+              
+                <p>
+                  <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email" name="Mail" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+            
+                <p>
+                  <label for="telefono" class="colocar_telefono">Teléfono
+                  </label>
+                    <input type="tel" name="Telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>    
+              
+                <p>
+                  <label for="website" class="colocar_website">Sitio web
+                  </label>
+                    <input type="url" name="Sitio Web" id="website" placeholder="Escribe la URL de tu web">
+                </p>    
+              
+                <p>
+                  <label for="asunto" class="colocar_asunto">Asunto
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="Asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                </p>    
+              
+                <p>
+                  <label for="mensaje" class="colocar_mensaje">Mensaje
+                    <span class="obligatorio">*</span>
+                  </label>                     
+                                    <textarea name="Mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                </p>                    
+              
+                <button type="submit" name="Enviar" id="enviar"><p>Enviar</p></button>
+
+                <p class="aviso">
+                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>          
+            
+          </form>
+    </div>  
+  </div>
+
 
 <div class="espaciador"></div>
 <div class="footer-ubl">
 	<div> 
-		<p class="footer-title">Entra en contacto con nosotros</p>
+		<a href="#"><p class="footer-title">Entra en contacto con nosotros</p></a>
 		<p class="footer-body">Email:</p> <p class="footer-body"><a href="mailto:contacto@umbrellastudios.com.mx">contacto@umbrellastudios.com.mx</a> </p>
 		<p class="footer-body"> <a href="mailto:umbrellastudios1@gmail.com">umbrellastudios1@gmail.com</a></p>
 		<p class="footer-body">Teléfono: </p> <p class="footer-body"> <a href="tel:+5544996750">55 4499 6750 </a> </p> <p class="footer-body"><a href="tel:+5580334306">55 8033 4306 </a> </p>  
