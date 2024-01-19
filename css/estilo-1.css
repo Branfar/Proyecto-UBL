@@ -461,7 +461,7 @@ label{
 }
 
 
-button{
+.contacto-button {
   height: 40px; 
   padding-left: 5px;
   padding-right: 5px;   
@@ -476,7 +476,7 @@ button{
 }
 
 
-button p{
+.contacto-button p{
   color: #fff; 
 }
 
